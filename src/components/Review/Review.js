@@ -8,11 +8,11 @@ const Review = ({ review }) => {
       <img className="w-full rounded-lg mb-3" src={img} alt="" />
       <div className="text-center">
         <figure>
-          <blockquote>
+          <blockquote className="relative p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote">
             <p className="mb-3"> {reviewTxt}</p>
           </blockquote>
           <figcaption className="text-2xl text-violet-900 font-semibold mb-3">
-            ~~ {name}
+            {name}
           </figcaption>
         </figure>
         <p>Rating:{ratings}</p>
