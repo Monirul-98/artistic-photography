@@ -9,7 +9,7 @@ const Home = () => {
           <span>Photography</span>
         </h1>
         <h4 className="text-2xl mb-3 text-gray-600">Quality Matters</h4>
-        <p className="text-gray-800">
+        <p className="text-gray-800 mb-3">
           Welcome and thank you for taking the time to view my work.When
           documenting your day, my goal is for you to feel comfortable in front
           of the camera and that you have a stress-free, fun experience while we
@@ -17,6 +17,9 @@ const Home = () => {
           believe our experience together is just as important as amazing
           images.
         </p>
+        <button className="bg-violet-300 px-8 py-4  text-yellow-50 rounded-lg">
+          View My Work
+        </button>
       </div>
       <div className="">
         <img
