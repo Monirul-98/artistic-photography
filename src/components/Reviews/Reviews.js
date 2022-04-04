@@ -9,7 +9,7 @@ const Reviews = () => {
       .then((data) => setReviews(data));
   }, []);
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-10">
       {reviews.map((review) => (
         <Review key={review.id} review={review}></Review>
       ))}
