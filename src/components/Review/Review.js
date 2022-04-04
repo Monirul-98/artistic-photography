@@ -4,7 +4,7 @@ import "./Review.css";
 const Review = ({ review }) => {
   const { name, img, reviewTxt, ratings } = review;
   return (
-    <div className="w-2/3 bg-slate-200 p-3 rounded-lg">
+    <div className="w-2/3 bg-slate-200 p-3 rounded-lg mx-auto">
       <img className="w-full rounded-lg mb-3" src={img} alt="" />
       <div className="text-center">
         <figure>
