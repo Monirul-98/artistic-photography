@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="my-5">
+    <nav className="my-5 sticky top-0 bg-white z-10">
       <ul className="flex justify-center items-center text-xl ">
         <li>
           <CustomLink to="/home">Home</CustomLink>
