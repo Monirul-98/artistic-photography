@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import useReview from "../../hooks/useReview";
 import Review from "../Review/Review";
-import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
   const [reviews, setReviews] = useReview();
@@ -13,7 +12,7 @@ const Home = () => {
   };
   return (
     <section className="mb-10">
-      <div className="flex justify-between h-screen m-10 ">
+      <div className="md:flex justify-between m-10 ">
         <div className="text-left mt-16 w-1/2">
           <h1 className="text-6xl mb-3">
             <span className="text-violet-800">Artistic</span> <br />

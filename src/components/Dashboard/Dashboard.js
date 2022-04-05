@@ -51,7 +51,7 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="flex justify-evenly">
+    <div className="md:flex justify-evenly">
       <div>
         <h2 className="text-3xl text-violet-900 font-semibold mb-6">
           Month wise Sell

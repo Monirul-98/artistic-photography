@@ -1,4 +1,7 @@
+import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Rating from "react-rating";
 import "./Review.css";
 
 const Review = ({ review }) => {
@@ -15,7 +18,14 @@ const Review = ({ review }) => {
             {name}
           </figcaption>
         </figure>
-        <p>Rating:{ratings}</p>
+        <Rating
+          initialRating={ratings}
+          emptySymbol={<FontAwesomeIcon icon={faHeart} />}
+          fullSymbol={
+            <FontAwesomeIcon style={{ color: "darkviolet" }} icon={faHeart} />
+          }
+          readonly
+        ></Rating>
       </div>
     </div>
   );
